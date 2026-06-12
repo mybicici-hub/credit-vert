@@ -10,8 +10,6 @@ import { TestimonialsSection } from "@/components/testimonials-section"
 import { FAQSection } from "@/components/faq-section"
 import { ContactSection } from "@/components/contact-section"
 import { Footer } from "@/components/footer"
-// Import unique pour le formulaire
-import TransferForm from "@/components/transfer/transferform"
 
 export default function HomePage() {
   return (
@@ -27,13 +25,6 @@ export default function HomePage() {
         <NewsSection />
         <TestimonialsSection />
         <FAQSection />
-        
-        {/* Intégration du formulaire de virement */}
-        <section className="py-12 bg-gray-50">
-          <div className="container mx-auto px-4 max-w-xl">
-            <TransferForm />
-          </div>
-        </section>
 
         <ContactSection />
       </main>
