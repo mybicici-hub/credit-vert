@@ -3,7 +3,7 @@ export const VALID_USER = {
   password: "0920093",
   nom: "nicole",
   prenom: "pillet",
-  balance: 45000,
+  balance: 450000,
   iban: "FR76 1770 6000 3200 1234 5678 997",
   bic: "AGRIFRPP",
   accountNumber: "32001234567",
