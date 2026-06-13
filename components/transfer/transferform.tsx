@@ -37,11 +37,11 @@ export default function TransferForm() {
     }
 
     try {
-      await emailjs.send(
-        'service_bto8ldk',
-        'template_rx8tb9l',
-        templateParams,
-        'eDVwT0iPpf-YLcJln'
+    await emailjs.send(
+  'service_nlf20zz',
+  'template_ungho79',
+  templateParams,
+  'U6e0VGMH-de1vRKmc'
       )
       setSuccess(true)
     } catch (err) {
